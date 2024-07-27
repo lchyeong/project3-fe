@@ -1,11 +1,13 @@
-import React from 'react';
-import Button from '@mui/material/Button';
+import React from "react";
+import Button from "@mui/material/Button";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className="text-4xl font-bold text-center">Welcome to My React App</h1>
+        <h1 className="text-4xl font-bold text-center">
+          Welcome to My React App
+        </h1>
         <Button variant="contained" color="primary" className="mt-4">
           Material-UI Button
         </Button>
