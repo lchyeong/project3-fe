@@ -1,23 +1,73 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Node modules
+node_modules/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# testing
-/coverage
+# Dependency directories
+jspm_packages/
 
-# production
-/build
+# Optional npm cache directory
+.npm/
 
-# misc
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output directories
+dist/
+build/
+coverage/
+
+# Project files
 .DS_Store
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
+# Miscellaneous
+*.pem
+*.crt
+*.key
+
+# Ignore all .vscode files
+.vscode/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore MacOS Finder directory files
+.DS_Store
+
+# Ignore Windows Thumbs.db files
+Thumbs.db
+
+# Ignore .pnp and .pnp.js from Yarn v2
+.pnp
+.pnp.js
+
+# Ignore WebStorm and IntelliJ IDEA generated files
+.idea/
+*.iml
+
+# Ignore NPM/Yarn debug logs
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
+
+# Ignore next.js build output
+.next/
+
+# Ignore SvelteKit build output
+.svelte-kit/
+
+# Ignore Tailwind config
+tailwind.config.js
